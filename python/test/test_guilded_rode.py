@@ -1,7 +1,8 @@
 import pytest
 
+@pytest.mark.gilded_rose
 def test_gilded_rose():
-    items = [
+    stock = [
              NormalItem(name="+5 Dexterity Vest", sell_in=10, quality=20),
              AgedBrie(name="Aged Brie", sell_in=2, quality=0),
              NormalItem(name="Elixir of the Mongoose", sell_in=5, quality=7),

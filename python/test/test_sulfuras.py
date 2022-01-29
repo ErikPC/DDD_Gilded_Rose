@@ -1,4 +1,5 @@
 import pytest
+from src.Sulfuras import Sulfuras
 
 @pytest.mark.update_quality_sulfuras
 def test_update_quality_():

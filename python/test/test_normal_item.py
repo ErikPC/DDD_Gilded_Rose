@@ -1,4 +1,6 @@
+from src.NormalItem import NormalItem
 import pytest
+
 
 @pytest.mark.update_quality_normal_item
 def test_update_quality_normal_item():

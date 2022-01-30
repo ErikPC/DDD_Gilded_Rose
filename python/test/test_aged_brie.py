@@ -6,12 +6,14 @@ import pytest
 @pytest.mark.update_quality_brie
 def test_update_quality_brie():
     cheese = AgedBrie("Aged Brie", 0, 0)
+    cheese.updateQuality()
     assert -1 == cheese.getSell_in()
     assert 2 == cheese.getQuality()
 
 @pytest.mark.update_quality_expired
 def test_update_quality_expired():
     cheese = AgedBrie("Aged Brie", 0, 0)
+    cheese.updateQuality()
     assert -1 == cheese.getSell_in()
     assert 2 == cheese.getQuality()
 

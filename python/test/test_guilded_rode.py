@@ -1,3 +1,10 @@
+from src.Aged_brie import AgedBrie
+from src.Backstage import Backstage
+from src.Conjured import Conjured
+from src.NormalItem import NormalItem
+from src.Sulfuras import Sulfuras
+from src.GildedRose import GildedRose
+
 import pytest
 
 @pytest.mark.gilded_rose

@@ -5,8 +5,8 @@ import pytest
 def test_update_quality_over_TEN():
     ticket = Backstage("Backstage passes to a TAFKAL80ETC concert", 15, 20)
     ticket.updateQuality()
-    assert 14 == ticket.getSell_in
-    assert 21 == ticket.getQuality
+    assert 14 == ticket.getSell_in()
+    assert 21 == ticket.getQuality()
 
 @pytest.mark.update_quality_over_FIVE
 def test_update_quality_over_Five():
@@ -32,8 +32,8 @@ def test_quality_pass_expired():
 @pytest.mark.max_quality
 def test_max_quality():
     ticket = Backstage("Backstage passes to a TAFKAL80ETC concert", 5, 49)
-    ticket.updateQuality
-    assert 4 == ticket.getSet_in()
+    ticket.updateQuality()
+    assert 4 == ticket.getSell_in()
     assert 50 == ticket.getQuality()
 
     ticket = Backstage("Backstage passes to a TAFKAL80ETC concert", 9, 49)

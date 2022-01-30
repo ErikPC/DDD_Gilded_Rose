@@ -1,3 +1,4 @@
+from src.Conjured import Conjured
 import pytest
 
 @pytest.mark.update_quality_conjured
@@ -5,7 +6,7 @@ def test_update_quality_conjured():
     conjured = Conjured("Conjured Mana Cake", 3, 6)
     conjured.updateQuality()
     assert 2 == conjured.getSell_in()
-    assert 4 == conjured.getquality()
+    assert 4 == conjured.getQuality()
 
 @pytest.mark.update_quality_conjured_just_expired
 def test_update_quality_conjured_just_expired():

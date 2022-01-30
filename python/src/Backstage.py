@@ -23,8 +23,7 @@ class Backstage(Item, updateable):
              self.quality += 2
         if self.sell_in <= 0:
             self.quality = 0
-        Backstage.maxQuality(self)
-        print(self.sell_in)
+        self.maxQuality()
         self.sell_in -= 1
 
     def maxQuality(self):

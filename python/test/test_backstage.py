@@ -1,5 +1,4 @@
-import pyexpat
-import py
+from src.Backstage import Backstage
 import pytest
 
 @pytest.mark.update_quality_over_TEN

@@ -33,3 +33,5 @@ We have recently signed a supplier of conjured items. This requires an update to
 ---
 
 En nuestro caso nos dieron la clase Item, la clase Item no se podia modificar nada , tenia que estar intacta. A partir de la norma comentada anteriormente teniamos que realizar el kata con los nombres del dominio, a partir de una sesion de DDD (Domain Driven Design) realizada por el tutor.
+
+<img src="GildedRoseWano.PNG" width= 50%>

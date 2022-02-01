@@ -1,4 +1,4 @@
-package gildedRose;
+package edu.poniperro.gildedrose;
 
 import static org.junit.Assert.*;
 import org.junit.Test;

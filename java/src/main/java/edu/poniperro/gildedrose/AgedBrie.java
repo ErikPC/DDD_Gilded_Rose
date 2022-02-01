@@ -1,4 +1,4 @@
-package gildedRose;
+package edu.poniperro.gildedrose;
 
 public class AgedBrie extends Item implements updateable {
 

@@ -1,6 +1,6 @@
 package edu.poniperro.gildedrose;
 
-public class Backstage extends Item implements updateable {
+public class Backstage extends Item implements Updateable {
 
     Backstage(String name, int sell_in, int quality) {
         super(name, sell_in, quality);

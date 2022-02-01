@@ -1,5 +1,5 @@
 package edu.poniperro.gildedrose;
 
-public interface updateable {
+public interface Updateable {
     void updateQuality();
 }

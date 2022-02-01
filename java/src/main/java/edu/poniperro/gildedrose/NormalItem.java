@@ -1,6 +1,6 @@
 package edu.poniperro.gildedrose;
 
-public class NormalItem extends Item implements updateable {
+public class NormalItem extends Item implements Updateable {
 
     NormalItem(String name, int sell_in, int quality) {
         super(name, sell_in, quality);

@@ -21,8 +21,5 @@ public class NormalItem extends Item implements Updateable {
         if (getQuality() >= 50) {
             setQuality(50);
         }
-        if (getQuality() <= 0) {
-            setQuality(0);
-        }
     }
 }

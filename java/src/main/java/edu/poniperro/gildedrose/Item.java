@@ -6,7 +6,7 @@ public class Item {
     private int sell_in;
     private int quality;
 
-    Item(String name, int sell_in, int quality) {
+    public Item(String name, int sell_in, int quality) {
         this.name = name;
         this.sell_in = sell_in;
         this.quality = quality;
@@ -21,11 +21,11 @@ public class Item {
         return itemDescription.toString();
     }
 
-    String getName() {
+    public String getName() {
         return this.name;
     }
 
-    int getSell_in() {
+    public int getSell_in() {
         return this.sell_in;
     }
 
@@ -33,7 +33,7 @@ public class Item {
         this.sell_in = this.getSell_in() - 1;
     }
 
-    int getQuality() {
+    public int getQuality() {
         return this.quality;
     }
 

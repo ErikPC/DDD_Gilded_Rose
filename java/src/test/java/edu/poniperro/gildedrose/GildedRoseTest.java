@@ -7,6 +7,8 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 
+import edu.poniperro.GildedRose;
+
 public class GildedRoseTest {
 
   private GildedRose shop = null;

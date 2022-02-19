@@ -2,7 +2,7 @@ package edu.poniperro.gildedrose;
 
 public class AgedBrie extends Item implements Updateable {
 
-	AgedBrie(String name, int sell_in, int quality) {
+	public AgedBrie(String name, int sell_in, int quality) {
 		super(name, sell_in, quality);
 	}
 

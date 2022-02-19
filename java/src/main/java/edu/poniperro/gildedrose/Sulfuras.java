@@ -2,7 +2,7 @@ package edu.poniperro.gildedrose;
 
 public class Sulfuras extends Item implements Updateable {
 
-    Sulfuras(String name, int sell_in, int quality) {
+    public Sulfuras(String name, int sell_in, int quality) {
         super(name, sell_in, quality);
     }
 

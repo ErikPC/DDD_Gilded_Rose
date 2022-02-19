@@ -2,7 +2,7 @@ package edu.poniperro.gildedrose;
 
 public class Conjured extends Item implements Updateable {
 
-    Conjured(String name, int sell_in, int quality) {
+    public Conjured(String name, int sell_in, int quality) {
         super(name, sell_in, quality);
     }
 

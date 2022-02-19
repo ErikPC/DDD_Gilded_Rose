@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import edu.poniperro.gildedrose.Item;
 import edu.poniperro.gildedrose.Updateable;
 
 public class GildedRose {

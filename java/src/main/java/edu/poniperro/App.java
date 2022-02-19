@@ -3,7 +3,6 @@ package edu.poniperro;
 import edu.poniperro.gildedrose.AgedBrie;
 import edu.poniperro.gildedrose.Backstage;
 import edu.poniperro.gildedrose.Conjured;
-import edu.poniperro.gildedrose.Item;
 import edu.poniperro.gildedrose.NormalItem;
 import edu.poniperro.gildedrose.Sulfuras;
 import edu.poniperro.gildedrose.Updateable;
